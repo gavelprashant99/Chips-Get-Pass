@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/chipspjbg"
+    tools:context=".Dashboard">
+
+    <android.widget.Button
+        android:id="@+id/btnNewForm"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:text="Application form for pass" />
+
+    <android.widget.Button
+        android:id="@+id/btnPreviousList"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textAllCaps="false"
+        android:text="Previous list" />
+</LinearLayout>
